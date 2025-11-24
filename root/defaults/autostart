@@ -5,4 +5,4 @@ if [ ! -f "${HOME}/.config/citron/qt-config.ini" ]; then
   cp /defaults/qt-config.ini "${HOME}/.config/citron/"
 fi
 
-#xterm -e citron
+xterm -e citron
