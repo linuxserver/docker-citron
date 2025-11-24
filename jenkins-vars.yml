@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-citron
+external_type: na
+custom_version_command: "curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=citron | awk -F'=' '/^pkgver=/ {print $2}'"
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - BUILD_VERSION_ARG = 'CITRON_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-citron'
+  - CONTAINER_NAME = 'citron'
+  - DOCKERHUB_IMAGE = 'linuxserver/citron'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/citron'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/citron'
+  - DIST_IMAGE = 'arch'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3001'
+  - CI_SSL = 'true'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
