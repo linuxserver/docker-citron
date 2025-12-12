@@ -3,7 +3,8 @@
 # jenkins variables
 project_name: docker-citron
 external_type: na
-custom_version_command: "curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=citron | awk -F'=' '/^pkgver=/ {print $2}'"
+custom_version_command: |
+  curl -s 'https://aur.archlinux.org/rpc/v5/info?arg[]=citron' | jq -r '.results[] | select(.Name == "citron") | .Version'
 release_type: stable
 release_tag: latest
 ls_branch: master

@@ -147,7 +147,8 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=citron | awk -F'=' '/^pkgver=/ {print $2}' ''',
+            script: ''' curl -s 'https://aur.archlinux.org/rpc/v5/info?arg[]=citron' | jq -r '.results[] | select(.Name == "citron") | .Version'
+ ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
