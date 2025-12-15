@@ -74,7 +74,7 @@ enet                                                                          1.
 evdev                                                                         1.9.2                                   python                         
 expat                                                                         2.7.3-1                                 alpm                           
 fakeroot                                                                      1.37.1.2-1                              alpm                           
-ffmpeg                                                                        2:8.0.1-1                               alpm                           
+ffmpeg                                                                        2:8.0.1-2                               alpm                           
 fftw                                                                          3.3.10-7                                alpm                           
 file                                                                          5.46-5                                  alpm                           
 filesystem                                                                    2025.10.12-1                            alpm                           
@@ -304,7 +304,7 @@ github.com/xrash/smetrics                                                     v0
 github.com/zclconf/go-cty                                                     v1.17.0                                 go-module                      
 glib2                                                                         2.86.3-1                                alpm                           
 glibc                                                                         2.42+r33+gde1fe81f4714-1                alpm                           
-glslang                                                                       1:1.4.328.1-1                           alpm                           
+glslang                                                                       1:1.4.335.0-1                           alpm                           
 glycin                                                                        2.0.7-1                                 alpm                           
 gmp                                                                           6.3.0-2                                 alpm                           
 gnulib-l10n                                                                   20241231-1                              alpm                           
@@ -492,7 +492,7 @@ libpcap                                                                       1.
 libpciaccess                                                                  0.18.1-2                                alpm                           
 libpgm                                                                        5.3.128-3                               alpm                           
 libpipewire                                                                   1:1.4.9-2                               alpm                           
-libplacebo                                                                    7.351.0-3                               alpm                           
+libplacebo                                                                    7.351.0-4                               alpm                           
 libpng                                                                        1.6.53-1                                alpm                           
 libproxy                                                                      0.5.12-1                                alpm                           
 libpsl                                                                        0.21.5-2                                alpm                           
@@ -627,9 +627,9 @@ pcmflux                                                                       1.
 pcre2                                                                         10.47-1                                 alpm                           
 pcsclite                                                                      2.4.0-3                                 alpm                           
 perl                                                                          5.42.0-1                                alpm                           
-perl-error                                                                    0.17030-2                               alpm                           
-perl-mailtools                                                                2.22-2                                  alpm                           
-perl-timedate                                                                 2.33-8                                  alpm                           
+perl-error                                                                    0.17030-3                               alpm                           
+perl-mailtools                                                                2.22-3                                  alpm                           
+perl-timedate                                                                 2.33-9                                  alpm                           
 pillow                                                                        12.0.0                                  python                         
 pinentry                                                                      1.3.2-2                                 alpm                           
 pip                                                                           25.3                                    python                         
@@ -677,7 +677,7 @@ sdl3                                                                          3.
 sed                                                                           4.9-3                                   alpm                           
 selkies                                                                       0.0.0                                   python                         
 setuptools                                                                    80.9.0                                  python                         
-shaderc                                                                       2025.4-2                                alpm                           
+shaderc                                                                       2025.5-1                                alpm                           
 shadow                                                                        4.18.0-1                                alpm                           
 shared-mime-info                                                              2.4-2                                   alpm                           
 sigs.k8s.io/json                                                              v0.0.0-20241010143419-9aa6b5e7a4b3      go-module                      
@@ -725,13 +725,13 @@ v4l-utils                                                                     1.
 vapoursynth                                                                   73-1                                    alpm                           
 vid.stab                                                                      1.1.1-2                                 alpm                           
 vmaf                                                                          3.0.0-1                                 alpm                           
-vulkan-headers                                                                1:1.4.328.1-1                           alpm                           
+vulkan-headers                                                                1:1.4.335.0-1                           alpm                           
 vulkan-icd-loader                                                             1.4.328.1-1                             alpm                           
 vulkan-intel                                                                  1:25.3.1-2                              alpm                           
 vulkan-mesa-implicit-layers                                                   1:25.3.1-2                              alpm                           
 vulkan-radeon                                                                 1:25.3.1-2                              alpm                           
 vulkan-tools                                                                  1.4.328.1-1                             alpm                           
-vulkan-utility-libraries                                                      1.4.328.1-1                             alpm                           
+vulkan-utility-libraries                                                      1.4.335.0-1                             alpm                           
 watchdog                                                                      6.0.0                                   python                         
 wayland                                                                       1.24.0-1                                alpm                           
 webrtc-audio-processing-1                                                     1.3-5                                   alpm                           
