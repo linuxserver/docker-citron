@@ -102,4 +102,5 @@ init_diagram: |
   "citron:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.12.25:", desc: "Add Wayland init logic."}
   - {date: "24.11.25:", desc: "Initial Version."}
