@@ -36,7 +36,7 @@ ca-certificates-utils                                                         20
 cairo                                                                         1.18.4-1                                alpm                           
 catatonit                                                                     0.2.1-2                                 alpm                           
 cffi                                                                          2.0.0                                   python                         
-citron                                                                        0.11.0-2                                alpm                           
+citron                                                                        0.11.0-3                                alpm                           
 clang                                                                         21.1.6-1                                alpm                           
 cli                                                                           UNKNOWN                                 binary                         
 cli-32                                                                        UNKNOWN                                 binary                         
@@ -580,7 +580,7 @@ nss                                                                           3.
 nvidia-cuda-nvrtc                                                             13.1.80                                 python                         
 ocl-icd                                                                       2.3.4-1                                 alpm                           
 oniguruma                                                                     6.9.10-1                                alpm                           
-openal                                                                        1.24.3-2                                alpm                           
+openal                                                                        1.25.0-1                                alpm                           
 openbox                                                                       3.6.1-14                                alpm                           
 openbsd-netcat                                                                1.234_1-1                               alpm                           
 opencore-amr                                                                  0.1.6-2                                 alpm                           
@@ -643,7 +643,7 @@ qt6-webchannel                                                                6.
 qt6-webengine                                                                 6.10.1-1                                alpm                           
 rapidjson                                                                     1.1.0-6                                 alpm                           
 rav1e                                                                         0.8.1-2                                 alpm                           
-re2                                                                           1:20240702-7                            alpm                           
+re2                                                                           2:2025.11.05-1                          alpm                           
 readline                                                                      8.3.003-1                               alpm                           
 rhash                                                                         1.4.6-1                                 alpm                           
 rtkit                                                                         0.14-1                                  alpm                           
