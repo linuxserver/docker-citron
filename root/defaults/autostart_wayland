@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ! -f "${HOME}/.config/citron/qt-config.ini" ]; then
+  mkdir -p "${HOME}/.config/citron/"
+  cp /defaults/qt-config.ini "${HOME}/.config/citron/"
+fi
+
+foot -e citron
