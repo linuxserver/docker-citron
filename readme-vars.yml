@@ -2,6 +2,7 @@
 
 # project information
 project_name: citron
+project_deprecation_status: true
 project_url: "https://citron-emu.org/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/citron-logo.png"
 project_blurb: "[Citron]({{ project_url }}) is a feature rich Switch 1 emulator for homebrew."
